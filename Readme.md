@@ -43,6 +43,7 @@ Caching is currently done via inbuilt memory cache
 * Tests are not covered
 * Not all devices are not testsed. For now optimised for Desktop site with 100%. Need some more changes for mobile/ipad
 * Left nav deafault to main page
+* Used Grommet (https://v2.grommet.io/) for all react components fore repsonsive components, have not used scss/css as it was not required for most
 
 # Other Assumptions
 
