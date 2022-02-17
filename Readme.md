@@ -22,6 +22,17 @@ Caching is currently done via inbuilt memory cache
 
 ![name-of-you-image](https://github.com/pandurd/smartbooking/blob/bb6a7c4c1bb6bec0a655aaaad7801594b025ab36/ScalableDesign.jpg)
 
+# Dev
+
+* Used polly to retry,  should be configurable to reduce client wait time
+* Used in Memory cache to cache
+* Used hooks to cover functionalities needed in react. It would be still great to use redux.
+* Authentication/Authorizations not covered
+* if need another provider, only configuration need to be changed (MovieProvider, URL configs)
+* Tests are not covered 100%
+* Not all devices are not testsed. For now optimised for Desktop site with 100%. Need some more changes for mobile/ipad
+
+
 # Other Assumptions
 
 * Only showing the result for cheapest is needed, but button is not imeplemented
@@ -30,10 +41,6 @@ Caching is currently done via inbuilt memory cache
 * Paginations is not required - would be great to have infinite scroll
 * All service provider give similar API response with minimal change - using same model all api repsonses. should be configurebale
 
-* if need another provider, only configuration need to be changed (MovieProvider, URL configs)
-* Tests are not covered 100%
-
-* Not all devices are not testsed. For now optimised for Desktop site with 100%. Need some more changes for mobile/ipad
 
 
 
