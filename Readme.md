@@ -29,7 +29,7 @@ Caching is currently done via inbuilt memory cache
 * Used hooks to cover functionalities needed in react. It would be still great to use redux.
 * Authentication/Authorizations not covered
 * if need another provider, only configuration need to be changed (MovieProvider, URL configs)
-* Tests are not covered 100%
+* Tests are not covered
 * Not all devices are not testsed. For now optimised for Desktop site with 100%. Need some more changes for mobile/ipad
 
 
