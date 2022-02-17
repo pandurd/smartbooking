@@ -42,7 +42,7 @@ Caching is currently done via inbuilt memory cache
 * if need another provider, only configuration need to be changed (MovieProvider, URL configs)
 * Tests are not covered
 * Not all devices are not testsed. For now optimised for Desktop site with 100%. Need some more changes for mobile/ipad
-
+* Left nav deafault to main page
 
 # Other Assumptions
 
